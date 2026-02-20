@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="112" viewBox="0 0 140 28">
+  <defs>
+    <linearGradient id="vsg" x1="0" y1="0" x2="28" y2="28">
+      <stop offset="0%" stop-color="#C8102E"/>
+      <stop offset="100%" stop-color="#FF4D6A"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="2" width="24" height="24" rx="5" fill="url(#vsg)"/>
+  <path d="M6 10l4 8.5h.2l4-8.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M14 10h3.5a2.5 2.5 0 010 5H15v4" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="30" y="19.5" font-family="system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="16.5" font-weight="700" fill="#FFFFFF" letter-spacing="-0.3">Venue</text>
+  <text x="82" y="19.5" font-family="system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="16.5" font-weight="300" fill="#C8102E" letter-spacing="-0.3">Shift</text>
+</svg>

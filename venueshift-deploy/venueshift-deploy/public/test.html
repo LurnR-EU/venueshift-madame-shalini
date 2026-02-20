@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Test Page</title>
+<style>
+body { background: #0A0A0A; color: #E8DFD0; font-family: sans-serif; padding: 40px; }
+</style>
+</head>
+<body>
+<h1>✅ Server is working!</h1>
+<p>If you see this, the server is serving files correctly.</p>
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.2.0/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.24.0/babel.min.js"></script>
+
+<script type="text/babel">
+const {useState} = React;
+
+function TestApp() {
+  const [count, setCount] = useState(0);
+  
+  return (
+    <div style={{marginTop: 20}}>
+      <h2>✅ React is working!</h2>
+      <p>Count: {count}</p>
+      <button 
+        onClick={() => setCount(count + 1)}
+        style={{
+          background: '#C8102E',
+          color: '#fff',
+          border: 'none',
+          padding: '10px 20px',
+          cursor: 'pointer',
+          fontSize: 14
+        }}
+      >
+        Click me
+      </button>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<TestApp />);
+</script>
+</body>
+</html>

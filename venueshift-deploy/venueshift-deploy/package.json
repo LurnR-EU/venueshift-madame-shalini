@@ -1,0 +1,11 @@
+{
+  "name": "venueshift-madame-shalini",
+  "version": "1.0.0",
+  "description": "Madame Shalini - Surinaams-Hindoestaans Foodtruck | Powered by VenueShift",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "LurnR (lurnr.eu)",
+  "license": "UNLICENSED"
+}
